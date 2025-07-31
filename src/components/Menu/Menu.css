@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 12px;
+    font-weight: 200;
+    color: #ddd;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.listItem:hover {
+  background-color: #384256;
+}
+
+.listItem img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 850px) {
+  .title{
+    display: none !important;
+  }
+  .listItemTitle{
+    display: none;
+  }
+ } 

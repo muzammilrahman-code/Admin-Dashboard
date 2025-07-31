@@ -1,0 +1,41 @@
+.topBox h1{
+    margin-bottom: 20px;
+}
+
+.topBoxItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 25px;
+}
+.user{
+    display: flex;
+    gap: 15px;
+}
+.img{
+    width: 35px !important;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userTexts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.username{
+    font-size: 13px;
+    font-weight: 500;
+}
+.email{
+    font-size: 13px !important;
+}
+.amount{
+    font-weight: 500;
+}
+@media screen and (max-width: 780px) {
+    .top-deal{
+        font-size: 24px;
+    }
+}

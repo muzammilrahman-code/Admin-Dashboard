@@ -1,0 +1,17 @@
+.products{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.info-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    padding: 5px;
+    cursor: pointer;
+}

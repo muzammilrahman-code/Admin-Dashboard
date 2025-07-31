@@ -1,0 +1,30 @@
+.dashboard-container{
+  font-family: 'Inter', sans-serif;
+  background-color: #1c283e;
+  color: white ;
+}
+.menu-cont{
+  display: flex;
+}
+.menu{
+  width: 250px;
+  padding: 5px, 20px;
+  border-right: 2px solid gray;
+}
+.main-content{
+  padding: 5px 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 850px){
+  .menu{
+    width: 50px;
+    border: none;
+  }
+}
+/* main: #2a3447
+soft: #384256
+dark: #222b3c 
+main c: white
+soft c : #ddd
+dark c : #2a3447 */
