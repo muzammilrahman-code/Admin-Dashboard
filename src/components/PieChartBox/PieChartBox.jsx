@@ -1,5 +1,5 @@
 import React from 'react'
-import './pieChartBox.css'
+import './PieChartBox.css'
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
 const pieChartBox = () => {
