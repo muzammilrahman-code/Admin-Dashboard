@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import DataTable from '../../components/dataTable/DataTable'
+import DataTable from '../../components/DataTable/DataTable'
 import Add from '../../components/Add/Add'
 import { products } from '../../data';
 import { Avatar } from '@mui/material';

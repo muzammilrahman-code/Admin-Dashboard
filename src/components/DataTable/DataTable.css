@@ -112,7 +112,7 @@ position: relative;
   }
   
   .dataTable {
-    min-width: 500px; /* Further reduced for mobile */
+    min-width: 500px; 
   }
   
   .action {
@@ -125,9 +125,3 @@ position: relative;
   }
 }
 
-/* Remove the problematic media query that was causing issues */
-/* @media screen and (max-width: 1509px){
-  .mainData{
-    width: 80%;
-  }
-} */
