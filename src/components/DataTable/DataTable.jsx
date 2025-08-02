@@ -1,6 +1,6 @@
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 import { TextField, Box, Avatar, Button } from '@mui/material';
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import view from '../../assets/view.svg'
 import deleteImg from '../../assets/delete.svg'
 import './DataTable.css'
@@ -13,6 +13,20 @@ const DataTable = (props) => {
     // delete the item
     console.log(`${id} has been deleted`);
   }
+
+  const [showCheckbox, setShowCheckbox] = useState(window.innerWidth > 400);
+
+  useEffect(() => {
+  const handleResize = () => {
+    setShowCheckbox(window.innerWidth > 400);
+  };
+
+  window.addEventListener('resize', handleResize);
+
+  // Cleanup
+  return () => window.removeEventListener('resize', handleResize);
+}, []);
+
 
   const actionColumn = {
     field: "actions",
@@ -77,7 +91,7 @@ const DataTable = (props) => {
           }}
           slots={{ toolbar: GridToolbar }}
           pageSizeOptions={[5, 10, 25]}
-          checkboxSelection
+          checkboxSelection={showCheckbox}
           disableRowSelectionOnClick
           autoHeight
           sx={{

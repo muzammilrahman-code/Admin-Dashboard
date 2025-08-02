@@ -11,6 +11,7 @@
     font-weight: bold;
     gap: 10px;
 }
+
 .icons{
     display: flex;
     align-items: center;
@@ -59,4 +60,18 @@
   .icon{
     display: none;
   }
+ 
+}
+@media screen and (max-width: 400px){
+  
+  .logo span{
+    margin-left: -60px;
+}
+.notification span{
+    display: none;
+}
+
+.user-icon{
+    margin-right: -60px;
+}
 }

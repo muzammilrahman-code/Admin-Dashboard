@@ -24,7 +24,7 @@ const Navbar = () => {
                 <span>1</span>
             </div>
             <div className='user'>
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUQ_kRGqRlZAmkDksrsWKHn87jtwROvL5FUayOyffo0-Os80cf9uE96C15V7CfamGxxx0&usqp=CAU' alt="" />
+                <img className='user-icon' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUQ_kRGqRlZAmkDksrsWKHn87jtwROvL5FUayOyffo0-Os80cf9uE96C15V7CfamGxxx0&usqp=CAU' alt="" />
                 <span>Muz</span>
             </div>
             <img src={setting} alt="" className='icon' />

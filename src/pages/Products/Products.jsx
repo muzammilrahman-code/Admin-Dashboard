@@ -3,6 +3,7 @@ import DataTable from '../../components/DataTable/DataTable'
 import Add from '../../components/Add/Add'
 import { products } from '../../data';
 import { Avatar } from '@mui/material';
+import './Products.css'
 
 
 
@@ -68,7 +69,7 @@ const Products = () => {
     const [open, setOpen] = useState(false)
   return (
      <div className='products'>
-      <div className="info-head">
+      <div className="info">
         <h1>Products</h1>
         <button onClick={()=> setOpen(true)} className='btn'>Add New Products</button>
       </div>

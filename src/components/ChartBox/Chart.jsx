@@ -19,7 +19,7 @@ const Chart = (props) => {
 
         <div className="chartInfo">
             <div className='chart1'>
-                <ResponsiveContainer width="99%" height="100%">
+                <ResponsiveContainer width="95%" height="100%">
                 <LineChart  data={props.chartData}>
                     <Tooltip
                     contentStyle={{background: "transparent", border: "none"}}

@@ -218,3 +218,10 @@
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .itemValue{
+    margin-top: 2px;
+    margin-left: -60px;
+  }
+  }
